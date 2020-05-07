@@ -20,7 +20,7 @@ public class PmdP3CRulesDefinitionTest {
         assertThat(repository.language()).isEqualTo(P3cConstants.LANGUAGE_KEY);
 
         List<RulesDefinition.Rule> rules = repository.rules();
-        assertThat(rules).hasSize(48);
+        assertThat(rules).hasSize(50);
 
         for (RulesDefinition.Rule rule : rules) {
             assertThat(rule.key()).isNotNull();

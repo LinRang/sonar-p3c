@@ -1,0 +1,12 @@
+<p>注意 Math.random() 这个方法返回是double类型，注意取值的范围[0,1)（能够取到零值，注意除零异常）.</p>
+<p>Examples:</p>
+<pre>
+    ThreadFactory namedThreadFactory = new ThreadFactoryBuilder()
+        .setNameFormat("demo-pool-%d").build();
+    ExecutorService singleThreadPool = new ThreadPoolExecutor(1, 1,
+        0L, TimeUnit.MILLISECONDS,
+        new LinkedBlockingQueue<Runnable>(1024), namedThreadFactory, new ThreadPoolExecutor.AbortPolicy());
+
+    singleThreadPool.execute(()-> System.out.println(Thread.currentThread().getName()));
+    singleThreadPool.shutdown();
+</pre>

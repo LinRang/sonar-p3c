@@ -55,7 +55,10 @@
         <priority>MAJOR</priority>
         <configKey><![CDATA[rulesets/java/ali-concurrent.xml/CountDownShouldInFinallyRule]]></configKey>
     </rule>
-
+    <rule key="AvoidManuallyCreateThreadRule">
+        <priority>MAJOR</priority>
+        <configKey><![CDATA[rulesets/java/ali-concurrent.xml/AvoidManuallyCreateThreadRule]]></configKey>
+    </rule>
     <!--AlibabaJavaConstants-->
     <rule key="UpperEllRule">
         <priority>BLOCKER</priority>
@@ -182,6 +185,10 @@
     <rule key="AvoidMissUseOfMathRandomRule">
         <priority>MAJOR</priority>
         <configKey><![CDATA[rulesets/java/ali-other.xml/AvoidMissUseOfMathRandomRule]]></configKey>
+    </rule>
+    <rule key="UseRightCaseForDateFormatRule">
+        <priority>MAJOR</priority>
+        <configKey><![CDATA[rulesets/java/ali-other.xml/UseRightCaseForDateFormatRule]]></configKey>
     </rule>
 
     <!--AlibabaJavaSets-->
