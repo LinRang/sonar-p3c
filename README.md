@@ -46,5 +46,6 @@ mvn package
 - 重启SonarQube服务
 3. 配置规则
    创建新的质量配置(Quality Profiles)
+
 3.1 点击"更多激活规则"("Activate More")，搜索标签为"p3c"，激活所有规则
 
