@@ -33,3 +33,15 @@ PMD tool provides some rules that can check the code of JUnit tests. Please note
 
 ## License
 Licensed under the [GNU Lesser General Public License, Version 3.0](https://github.com/jensgerdes/sonar-pmd/blob/master/LICENSE.md)
+
+## Install
+1. 打jar包
+git clone https://github.com/LinRang/sonar-p3c.git
+mvn package
+2. Install puglin
+将sonar-pmd-plugin-3.2.1.jar放到SonarQube的extensions\plugins目录下
+重启SonarQube服务
+3. 配置规则
+创建新的质量配置(Quality Profiles)
+3.1 点击"更多激活规则"("Activate More")，搜索标签为"p3c"，激活所有规则
+
