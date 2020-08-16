@@ -37,6 +37,7 @@ Licensed under the [GNU Lesser General Public License, Version 3.0](https://gith
 ## Install
 1. 打jar包
 git clone https://github.com/LinRang/sonar-p3c.git
+
 mvn package
 2. Install puglin
 将sonar-pmd-plugin-3.2.1.jar放到SonarQube的extensions\plugins目录下
