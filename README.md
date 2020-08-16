@@ -38,6 +38,7 @@ Licensed under the [GNU Lesser General Public License, Version 3.0](https://gith
 1. 打jar包
 ```bash
 git clone https://github.com/LinRang/sonar-p3c.git
+cd sonar-p3c
 mvn package
 ```
 2. Install puglin
